@@ -1,0 +1,238 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #fff;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.container {
+  max-width: 80%;
+  width: 100%;
+  margin: 0 auto;
+}
+
+header .container {
+  display: flex;
+  padding: 1rem 0;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  width: 200px;
+}
+.top-nav {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem 1rem;
+  text-transform: uppercase;
+}
+.top-nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 17px;
+}
+.signup-btn {
+  background-color: #ff4419;
+  padding: 0.3rem 0.9rem;
+  color: #fff !important;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  justify-items: self-start;
+  gap: 1rem;
+}
+.navbar a {
+  text-align: center;
+  color: black;
+  text-decoration: none;
+}
+.bannar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+}
+/* .inner:nth-of-type(1) {
+  flex-grow: 2;
+}
+.inner:nth-of-type(2) {
+  flex-grow: 1;
+} */
+.bannar img {
+  width: 50%;
+}
+.inner h1 {
+  font-size: 64px;
+  max-width: 1000px;
+  width: 100%;
+}
+.inner p {
+  font-size: 21px;
+  margin-top: 30px;
+}
+.inner .signup-btn {
+  width: 300px;
+  margin: 30px auto;
+  text-align: center;
+  padding: 15px 15px;
+  border-radius: 5px;
+}
+/* end baner */
+
+.customDomains {
+  display: block;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 4rem;
+}
+.customDomains h3 {
+  font-size: 64px;
+  text-align: center;
+  font-weight: 700px;
+  padding-bottom: 20px;
+}
+.customDomains h4 {
+  font-size: 19px;
+  text-align: center;
+  font-weight: 600px;
+  padding-bottom: 20px;
+  font-family: "Nunito Sans", sans-serif;
+}
+.customDomains h5 {
+  text-align: center;
+  font-size: 19px;
+  font-weight: 600px;
+  color: #0078d7;
+}
+.customDomains img {
+  width: 50%;
+  margin: 0 auto;
+  display: block;
+}
+.templeat {
+  background-color: #f2f2f2;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("./images/img_makeIt_1024_2x.webp");
+  width: 100%;
+}
+.templeat .templeat-description {
+  display: flex;
+  padding: 5rem 0;
+  padding-bottom: 12rem;
+  justify-content: end;
+  text-align: right;
+}
+.place-right {
+  max-width: 625px;
+  width: 100%;
+}
+.templeat-description h3 {
+  font-size: 64px;
+}
+.templeat-description h4 {
+  font-size: 20px;
+}
+.templeat-description a {
+  font-size: 20px;
+  color: #007cdc;
+  text-decoration: dotted;
+}
+.innerDrop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 9.5rem 0;
+}
+.inner-description {
+  text-align: left;
+  position: relative;
+  align-self: center;
+}
+.inner-description h2 {
+  font-size: 64px;
+}
+.inner-description h3 {
+  font-size: 20px;
+}
+.inner-description a {
+  display: flex;
+  text-align: center;
+  font-size: 20px;
+  color: #007cdc;
+  text-decoration: none;
+}
+.innerDrop img {
+  width: 50%;
+  display: block;
+  width: 663px;
+}
+.mobileSites {
+  background-color: #f2f2f2;
+  height: 930px;
+  position: relative;
+}
+
+.mobileSites .row {
+  height: 100%;
+  position: relative;
+  z-index: 1;
+}
+.mobileSites .col {
+  align-items: center;
+  margin: 0 0 0 calc(3vw+400px);
+}
+
+.mobileSites .content {
+  max-width: 500px;
+  padding: 0 !important;
+}
+.mobileSites .content .title {
+  margin: 0;
+  font-size: 64px;
+  font-weight: 700;
+  color: #000;
+}
+.mobileSites .content p {
+  font-size: 19px;
+  font-weight: 600;
+  color: rgb(0, 0, 0, 8px);
+}
+.mobileSites .content a {
+  color: #0078d7;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 19px;
+  margin-top: 0.15rem;
+}
+.mobileSites .img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+}
+.container .img .left {
+  width: 394px;
+  height: 692px;
+  margin: 0 auto;
+  position: absolute;
+  left: 4vw;
+  top: 19%;
+}
+.container .img :right{
+  width: 1035px;
+  height: 692px;
+  margin: 0 auto;
+  position: absolute;
+  top: 19%;
+  left: calc(3vw+980px);
+  bottom: 0;
+}
